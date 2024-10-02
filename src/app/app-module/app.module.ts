@@ -14,6 +14,7 @@ import { TokenInterceptorProvider } from './_helpers/token.interceptor';
   ],
   imports: [
     BrowserModule,
+    Browseranimationsmodule,
     AppRoutingModule,
     HttpClientModule
   ],
