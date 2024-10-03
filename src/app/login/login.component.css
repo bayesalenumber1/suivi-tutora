@@ -6,15 +6,21 @@
 
 .form_container .group{
     margin-bottom: 15px;
-    
 }
 
 .form_container label{
     display:block;
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .form_container button{
-    width:190px;
+    width:178px;
     margin: 0 auto;
+    background: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rr {
+    border: solid chocolate;
 }
 

@@ -12,14 +12,14 @@
     >
         <div class="group">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" [(ngModel)]="form.email" #email="ngModel" required>
+            <input class="rr" type="text" name="email" id="email" [(ngModel)]="form.email" #email="ngModel" required>
             <div class="form_error" *ngIf="email.errors && f.submitted">
             
             </div>
         </div>
         <div class="group">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" [(ngModel)]="form.password" #password="ngModel" required minlength="5">
+            <input class="rr" type="password" name="password" id="password" [(ngModel)]="form.password" #password="ngModel" required minlength="5">
    
             <div class="form_error" *ngIf="password.errors && f.submitted">
                 <div *ngIf="password.errors['required']"></div>
